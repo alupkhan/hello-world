@@ -1,33 +1,15 @@
 <!DOCTYPE html>
 <html>
-<style>
-table, th, td {
-  border:1px solid black;
-}
-</style>
 <body>
 
-<h2>A basic HTML table</h2>
+<h2>Textarea</h2>
+<p>The textarea element defines a multi-line input field.</p>
 
-<table style="width:100%">
-  <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
-  </tr>
-  <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
-  </tr>
-  <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
-  </tr>
-</table>
-
-<p>To understand the example better, we have added borders to the table.</p>
+<form action="/action_page.php">
+  <textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea>
+  <br><br>
+  <input type="submit">
+</form>
 
 </body>
 </html>
